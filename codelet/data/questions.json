@@ -1,0 +1,13 @@
+{"questionList":
+[
+{"question_number":1,"title":"If you don't know what this does... do you know how to code?","topic":"Topic1",
+"code":
+"def foo(x): \n\t x=x+2 \n\t return x",
+"test":"exampleTest1.js",
+"flags":14},
+{"question_number":2,"title":"2 Sum","topic":"Topic1","code":"def foo(nums, target): \n \t num_to_index = {} \n\t for index, num in enumerate(nums):\n\t\tcomplement = target - num\n\t\tif complement in num_to_index:\n\t\t\treturn [num_to_index[complement], index]\n\t\tnum_to_index[num] = index\n\treturn []",
+"test":"exampleTest2.js","flags":14},
+{"question_number":3,"title":"Reverse a String","topic":"Topic2","code":"def foo(s): \n\t left, right = 0, len(s)-1 \n\t while left < right: \n\t\t s[left], s[right] = s[right], s[left] \n\t\t left, right = left + 1, right - 1",
+"test":"examleTest3.js","flags":14},
+{"question_number":4,"title":"N Palindrome","topic":"Topic2","code":"def foo(x): \n\t if x < 0: \n\t\t return False \n\t original = x \n\t reversed_num = 0 \n\t while x != 0: \n\t\t reversed_num = reversed_num * 10 + x % 10 \n\t\t x = x // 10 \n\t original == reversed_num",
+"test":"test four","flags":14}]}

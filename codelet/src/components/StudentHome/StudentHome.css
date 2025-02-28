@@ -1,0 +1,41 @@
+#welcome-message, #question-list-header {
+    text-align: center;
+}
+
+.Collapsible {
+    display: grid;
+}
+
+.Collapsible svg, .Collapsible__trigger {    
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.Collapsible svg {
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    z-index: 2;
+}
+
+.Collapsible__trigger {   
+    cursor: pointer;
+    
+    position: relative;
+    display: block;
+    padding-left: 3rem;
+
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #BB9Ab1;
+}
+
+th, td {
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.question-list-table {
+    width: 100%;
+    background-color: #FEFBD8
+}
